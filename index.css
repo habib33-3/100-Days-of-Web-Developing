@@ -1,0 +1,39 @@
+p {
+  color: rgba(40, 224, 71, 0.582);
+  font-family: sans-serif;
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+h1 {
+  font-family: "fira sans", sans-serif;
+  color: red;
+}
+
+a {
+  color: rgb(34, 100, 100);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#id1 {
+  font-family: "Segoe UI";
+  color: rgb(34, 100, 155);
+  font-size: 10px;
+  font-weight: bold;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(233, 215, 207);
+  margin: 50px;
+}
