@@ -20,9 +20,9 @@ a:hover {
 }
 
 #id1 {
-  font-family: "Segoe UI";
+  font-family: "Segoe UI, sans-serif", "Helvetica;
   color: rgb(34, 100, 155);
-  font-size: 10px;
+  font-size : 10px;
   font-weight: bold;
 }
 
