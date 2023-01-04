@@ -3,8 +3,21 @@ body {
   color: rgb(68, 68, 68);
 }
 
+#page-logo {
+  color: rgb(183, 230, 235);
+}
+
 header {
   position: static;
+}
+
+header a {
+  color: rgb(183, 230, 235);
+}
+
+header nav a:hover {
+  background-color: rgb(183, 230, 235);
+  color:rgb(59, 59, 59)
 }
 
 main ul {
@@ -13,11 +26,10 @@ main ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px 20px;
-
 }
 
-li:nth-of-type(3){
-    grid-column: 1/-1;
+li:nth-of-type(3) {
+  grid-column: 1/-1;
 }
 
 main li {
@@ -27,8 +39,6 @@ main li {
   border-radius: 6px;
   overflow: hidden;
 }
-
-
 
 main ul li img {
   width: 300px;
@@ -43,20 +53,21 @@ main ul li img {
   justify-content: space-between;
 }
 
-.actions{
-    text-align: right;
-
-
+.item-content h2 {
+  margin: 0;
+}
+.actions {
+  text-align: right;
 }
 
-.actions a{
+.actions a {
   text-decoration: none;
   padding: 6px;
   color: rgb(22, 211, 228);
   border-radius: 6px;
 }
 
-.actions a:hover{
+.actions a:hover {
   text-decoration: none;
   background-color: rgb(246, 235, 255);
 }
