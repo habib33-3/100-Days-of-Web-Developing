@@ -18,13 +18,13 @@
         <section>
             <ul>
                 <li><label for="username">Name</label>
-                    <input type="text" name="user-name" id="username" />
+                    <input type="text" name="user-name" id="username" required placeholder="Jack Ryan" />
                 </li>
                 <li><label for="user-email">Email</label>
-                    <input type="email" name="user-email" id="user-email">
+                    <input type="email" name="user-email" id="user-email" required>
                 </li>
                 <li><label for="user-password">Password</label>
-                    <input type="password" name="user-password" id="user-password">
+                    <input type="password" name="user-password" id="user-password" required minlength="8">
                 </li>
             </ul>
         </section>
@@ -33,11 +33,11 @@
             <ul>
                 <li>
                     <label for="user-age">Age</label>
-                    <input type="number" step="1" name="user-age" id="user-age">
+                    <input type="number" step="1" name="user-age" id="user-age" required min="18">
                 </li>
                 <li>
                     <label for="user-birthday">Birthday</label>
-                    <input type="date" name="user-birthday" id="user-birthday">
+                    <input type="date" name="user-birthday" id="user-birthday" required>
                 </li>
                 <li>
                     <label for="favourite-color">Favourite Colour</label>
@@ -53,7 +53,7 @@
 
         <section>
             <label for="user-message">Your Message</label>
-            <textarea name="user-message" id="user-message">
+            <textarea name="user-message" id="user-message" required rows="8">
             </textarea>
         </section>
 
@@ -63,48 +63,49 @@
             <ul>
                 <li>
                     <div class="form-control">
-                        <input type="radio" name="verify" id="verify-text" value="text">
+                        <input type="radio" name="verify" id="verify-text" value="text" required>
                         <label for="verify-text">Via Text Message</label>
                     </div>
                 </li>
                 <li>
                     <div class="form-control">
-                        <input type="radio" name="verify" id="verify-email" value="email">
+                        <input type="radio" name="verify" id="verify-email" value="email" required>
                         <label for="verify-email">Via Email</label>
                     </div>
                 </li>
                 <li>
                     <div class="form-control">
-                        <input type="radio" name="verify" id="verify-call" value="call">
+                        <input type="radio" name="verify" id="verify-call" value="call" required>
                         <label for="verify-call">Via Call</label>
                     </div>
                 </li>
             </ul>
         </section>
 
+        <h2>Want to hear from us?</h2>
 
         <section>
             <ul>
                 <li>
                     <div class="form-control"><input type="checkbox" name="contact" id="contact-email" value="email">
-                        <label for="contact-email">Contact Email</label>
+                        <label for="contact-email">Send an Email</label>
                     </div>
                 </li>
                 <li>
                     <div class="form-control">
                         <input type="checkbox" name="contact" id="contact-phone" value="phone">
-                        <label for="contact-phone">Contact Phone</label>
+                        <label for="contact-phone"> Phone</label>
                     </div>
                 </li>
                 <li>
                     <div class="form-control">
                         <input type="checkbox" name="contact" id="contact-text" value="text">
-                        <label for="contact-text">Contact SMS</label>
+                        <label for="contact-text">Send SMS</label>
                     </div>
                 </li>
             </ul>
         </section>
-
+<hr>
         <section>
             <div class="form-control">
                 <input type="checkbox" name="agree-terms" id="agree-terms">
@@ -114,7 +115,10 @@
 
 
 
-        <section><button>Submit</button></section>
+        <section id="btn">
+            <button type="reset">Clear</button>
+            <button type="submit">Submit</button>
+        </section>
 
 
     </form>

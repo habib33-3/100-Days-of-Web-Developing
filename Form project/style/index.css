@@ -24,7 +24,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-
 }
 
 input,
@@ -38,6 +37,10 @@ select {
   border: 1px solid rgb(184, 184, 184);
   padding: 0.25rem;
   color: rgb(61, 58, 58);
+}
+
+textarea {
+  resize: none;
 }
 
 input:focus,
@@ -57,11 +60,17 @@ button {
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
   cursor: pointer;
+  margin: 1rem;
 }
 
 button:hover {
   background-color: rgb(52, 14, 95);
   border-color: rgb(52, 14, 95);
+}
+
+#btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .form-control {
