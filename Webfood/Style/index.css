@@ -158,9 +158,9 @@ main h1 {
     display: none;
   }
 
-.menu-btn{
-  display: flex;
-}
+  .menu-btn {
+    display: flex;
+  }
 
   main h1 {
     font-size: 1.5rem;

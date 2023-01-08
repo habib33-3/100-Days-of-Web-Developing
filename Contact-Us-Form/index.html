@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style/index.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+
+    <main>
+      <form action="">
+        <section>
+          <h2>How can we help?</h2>
+          <ul>
+            <li>
+              <label for="user-name">Your Name</label>
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                placeholder="Jack Rayan"
+                required
+              />
+            </li>
+
+            <li>
+              <label for="user-email">Your E-mail Address</label>
+              <input
+                type="email"
+                name="user-email"
+                id="user-email"
+                placeholder="name@domain.com"
+                required
+              />
+            </li>
+
+            <li>
+              <label for="user-phone">Your Phone Number</label>
+              <input
+                type="tel"
+                name="user-phone"
+                id="user-phone"
+                placeholder="01xx-xxxxxxx"
+                required
+              />
+            </li>
+
+            <li>
+              <label for="user-message">Your Message</label>
+              <textarea
+                name="user-message"
+                id="user-message"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <label for="channel">How did you find us?</label>
+          <select name="channel" id="channel">
+            <option value="search">Search Engine</option>
+            <option value="social">Social Media</option>
+            <option value="other">Other</option>
+          </select>
+        </section>
+        <section>
+          <h2>How should we reply?</h2>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>

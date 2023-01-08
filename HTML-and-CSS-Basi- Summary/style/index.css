@@ -6,6 +6,7 @@ main {
   border-radius: 8px;
   color: hsla(0, 0%, 0%, 0.541);
 }
+
 body {
   background-color: rgb(221, 217, 225);
   font-family: "Prosto One", sans-serif;
@@ -21,6 +22,7 @@ header {
   text-align: center;
   padding: 32px;
 }
+
 img {
   width: 200px;
   height: auto;
@@ -42,6 +44,7 @@ a:hover {
   cursor: pointer;
   color: black;
 }
+
 a:active {
   font-weight: lighter;
 }
@@ -72,6 +75,6 @@ footer {
 }
 
 footer a {
-    color: rgb(97, 178, 150);
-    background-color: rgb(227, 255, 144);
+  color: rgb(97, 178, 150);
+  background-color: rgb(227, 255, 144);
 }

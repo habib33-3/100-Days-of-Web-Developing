@@ -54,15 +54,12 @@ header a:hover {
 footer {
   background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
   padding: 20px 0;
-
 }
 
-footer ul{
+footer ul {
   display: flex;
   justify-content: center;
   gap: 40px;
- 
-
 }
 
 footer img {
