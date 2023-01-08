@@ -14,7 +14,7 @@
     </header>
 
     <main>
-      <form action="">
+      <form action="/Contact-Us-Form/" method="GET">
         <section>
           <h2>How can we help?</h2>
           <ul>
@@ -72,6 +72,28 @@
         </section>
         <section>
           <h2>How should we reply?</h2>
+          <ul>
+            <li class="inline-control">
+              <input type="radio" name="reply" id="reply-phone" />
+              <label for="reply-phone">Call me</label>
+            </li>
+            <li class="inline-control">
+              <input type="radio" name="reply" id="reply-mail" />
+              <label for="reply-mail">Email me</label>
+            </li>
+            <li class="inline-control">
+              <input type="radio" name="reply" id="reply-text" />
+              <label for="reply-text">Text me</label>
+            </li>
+          </ul>
+        </section>
+        <section class="inline-control">
+          <input type="checkbox" name="terms" id="terms" required />
+          <label for="terms">Agree to terms</label>
+        </section>
+        <section id="btn">
+          <button type="reset">Clear</button>
+          <button type="submit">Submit</button>
         </section>
       </form>
     </main>
